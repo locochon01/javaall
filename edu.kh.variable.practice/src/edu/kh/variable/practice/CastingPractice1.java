@@ -37,5 +37,7 @@ package edu.kh.variable.practice;
 	        System.out.println( 'A' + iNum1 ); // 65+10
 	        System.out.println( (char) ( 'A' + iNum1) ); // 0 포함 10까지의 수를 문자열로 환산 A(0)~K(10)
 	       
+	        
+	        
 	      }
 }
