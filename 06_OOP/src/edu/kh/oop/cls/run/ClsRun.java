@@ -5,13 +5,11 @@ import edu.kh.oop.cls.model.service.ClsService;
 public class ClsRun {
 
 	public static void main(String[] args) {
-
-		ClsService ClsService = new ClsService();
-		ClsService.ex3();
+		// TODO Auto-generated method stub
+		ClsService clsService = new ClsService();
 		
+		clsService.ex3();
 		
-		// ArrayPractice arrEx = new ArrayPractice();
-	    // arrEx.practice1();
 	}
 
 }
