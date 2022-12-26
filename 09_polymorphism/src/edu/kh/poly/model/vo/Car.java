@@ -10,8 +10,10 @@ public class Car { //extends object // object의 대상속을 받고있음!!
 	private int wheel; // 바퀴개수
 	
 	public Car() { // 기본생성자도 생성해주고
-		super(); // 부모생성자(object) 
 		// 안적으면 컴파일러가 자동으로 만들어준다!
+		
+		super(); // 부모생성자(object) 
+
 		
 	}
 	
