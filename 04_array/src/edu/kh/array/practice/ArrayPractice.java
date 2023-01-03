@@ -11,8 +11,15 @@ public class ArrayPractice {
     */
     public void practice1() {
         int[] arr = new int[9];
-
+        //int[] arr = new int[9];
+        
         int sum = 0;
+        for(int i = 0; i<arr.length; i++) {
+        	arr[i] = i+1;
+        	System.out.println();
+        }
+
+      //////////////// ★★★다시써야함> // int sum = 0;
         for (int i = 0; i < arr.length; i++) {
             arr[i] = i + 1;
             System.out.print(arr[i] + " ");
@@ -30,6 +37,7 @@ public class ArrayPractice {
     순서대로 배열의 각 인덱스 요소에 대입하고 출력한 후
     홀수 번째 인덱스 값의 합을 출력하세요. (0 번째 인덱스는 짝수로 취급)
      */
+    
     public void practice2() {
         int[] arr = new int[9];
 

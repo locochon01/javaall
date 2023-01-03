@@ -53,7 +53,8 @@ public class Snack {
 	}
 	
 	public String infomation() {
-		return kind +"(" + name + " - " + flavor +  ") " + numOf +"개 " + price+"원";
+		return kind +"(" + name + " - " + flavor +  ") "
+	+ numOf +"개 " + price+"원";
 	}
 	
 }

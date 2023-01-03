@@ -6,8 +6,6 @@ public class Student extends Person{
 	// extends로 상속 받았으니,
 	// Student 클래스에 Person 클래스 내용(속성,기능)이 추가됨
 	
-	
-	
 	// private String name;
 	// private int age;
 	// private String nationality;

@@ -8,9 +8,10 @@ public class Employee extends Person {
 	//기본 생성자
 	public Employee() {}
 	
-	public Employee(String company) {
-		super();
+	public Employee(String name, int age, String nationality, String company) {
+		super(name,age,nationality);
 		this.company = company;
+		
 		
 		
 	}

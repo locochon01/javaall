@@ -13,7 +13,11 @@ public class Person {
 	public Person() {} //기본 생성자 
 	
 	//매개변수 생성자 ( 필드에 있는 애들 다 받아옴 )
-	public Person(String name, int age, String nationality) {}
+	public Person(String name, int age, String nationality) {
+		this.name = name;
+		this.age = age;
+		this.nationality = nationality;
+	}
 
 	//메서드
 	// ( getter / setter )

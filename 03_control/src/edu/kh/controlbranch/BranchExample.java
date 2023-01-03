@@ -54,12 +54,9 @@ public class BranchExample {
 	 // 단, 5의 배수는 건너뛰고, 증가 값이 40이 되었을 때 반복 멈춤
 	 
 	 for(int i = 1; i <= 100; i++) {
-		 
 			if(i == 40) { 
 				 break; // 멈춤
-		
 		 }
-			 
 			 if(i % 5 == 0) {
 				 continue;
 		 }

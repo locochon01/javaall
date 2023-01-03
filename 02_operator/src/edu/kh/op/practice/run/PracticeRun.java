@@ -9,7 +9,7 @@ public class PracticeRun {
 		
 		
 		
-		op.practice3();
+		op.practice1();
 	}
 
 }

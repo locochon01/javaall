@@ -29,6 +29,50 @@ public class Array2Example {
 		// 1) 행,열 인덱스를 이용해 직접 초기화
 		
 		/*
+		
+	String[] students = {"강건강", "남나나", "도대담", "류라라", "문미미", "박보배", 
+			"송성실", "윤예의", "진재주", "차천축", "피풍표", "홍하하"};
+	
+	String[][] arr1 = new String[3][2];
+	String[][] arr2 = new String[3][2];
+	int row = 0;
+	int col = 0;
+
+	System.out.println("== 1분단 ==");
+	for (int i = 0; i < students.length; i++) {
+		if (i < students.length / 2) {
+			arr1[row][col] = students[i];
+			
+			System.out.print(arr1[row][col] + " ");
+			col++;
+			
+			if (col == arr1[row].length) {
+				row++;
+				col = 0;
+				System.out.println();
+			}
+			
+		} else {
+			arr2[row][col] = students[i];
+			
+			System.out.print(arr2[row][col] + " ");
+			col++;
+			
+			if (col == arr2[row].length) {
+				row++;
+				col = 0;
+				System.out.println();
+			}
+		}
+		
+		if (i == students.length / 2 - 1) {
+			row = 0;
+			col = 0;
+			System.out.println("== 2분단 ==");
+		}
+	}
+
+}
 		arr[0][0] = 10;
 		arr[0][1] = 20;
 		arr[0][2] = 30;

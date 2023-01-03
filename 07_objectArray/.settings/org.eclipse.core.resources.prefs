@@ -1,2 +1,5 @@
 eclipse.preferences.version=1
+encoding//src/edu/kh/oarr/model/service/MemberService.java=UTF-8
+encoding//src/edu/kh/oarr/model/vo/Member.java=UTF-8
+encoding//src/edu/kh/oarr/run/MemberRun.java=UTF-8
 encoding/<project>=UTF-8
